@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View ,image } from 'react-native';
+import icon from './assets/icon.png';
+// imagenes 
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <image source={icon} style={{width: 200, height: 200}} />
+      <Text>Restaurante Bar Los Chenchos La nueva Era</Text> 
       <StatusBar style="auto" />
     </View>
   );
